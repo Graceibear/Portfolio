@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>Closable Tabs</h2>
+  <p>To close a tab, add onclick="this.parentElement.style.display='none'" to an element inside the tab container.</p>
+  <p><strong>Tip:</strong> The w3-button class can be used to style the close button (x):</p>
+</div>
     <title> Grace's Portfolio</title>
     <style type ="text/css">
     /* this our styling */
     body{ font-family: san-serif;background-image:url("http://static.wixstatic.com/media/9f7669_55fe6958322c43bbbce4a5d54f97e071~mv2_d_2527_2015_s_2.jpg_srz_2527_2015_85_22_0.50_1.20_0.00_jpg_srz")}
-
     <p> font-family: Times-New-Romans; color: red;</p>
     <div class="popup" onclick="myFunction()">Click me!
     <span class="popuptext" id="myPopup">Popup text...</span>
@@ -13,23 +22,62 @@
     width:50xp
     height:50xp
     position: absolute
-  </style>
+    <h1> font-family: san-serif;
+    </style>
   </head>
-    <Body>
-    <h1>About-Me</h1>
+  <body>
+  <div>
+
+  <div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
+  </div>
+
+  <div id="London" class="w3-container w3-display-container city">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-large w3-display-topright">&times;</span>
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+  </div>
+
+  <div id="Paris" class="w3-container w3-display-container city" style="display:none">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-large w3-display-topright">&times;</span>
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p>
+  </div>
+
+  <div id="Tokyo" class="w3-container w3-display-container city" style="display:none">
+    <span onclick="this.parentElement.style.display='none'"
+    class="w3-button w3-large w3-display-topright">&times;</span>
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+  <script>
+  function openCity(cityName) {
+      var i;
+      var x = document.getElementsByClassName("city");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      document.getElementById(cityName).style.display = "block";
+  }
+  </script>
+
+
     <p> Hi! I'm Grace and I am a computer scientists. One thing that you should know about me is that I love to make people laugh and I love to sing and dance. I hope to use computer science to help people inspire people around the world.
   <div class= "move-Me"></div>
   <a href="https://github.com/Graceibear/Portfolio/blob/master/Bachelorette.py">
 click me
   </a>
 </div>
-</Body>
-<Body>
 <h1>Core4</h1>
-<ul> Functions are a ways of identifying relationships between variables. By adding functions you are telling the program to do something using if..then..or else... statments.</ul>
-<Ul> Variables are
-<Ul>Conditions are
-<Ul>Loops
-</Body>
-<Body>
+<li> Functions are a ways of identifying relationships between variables. By adding functions you are telling the program to do something using if..then..or else... statments.</ul>
+ <li>Variables are values that change, depending on conditions or on information passed to the program.
+<li>Conditions are  features of a programming language, which perform different computations or actions depending on whether a programmer-specified boolean condition evaluates to true or false.
+Loops are sequences of instructions that is continually repeated until a certain condition is reached.
 <p2> My idea of robotics have not change; I still think that robots are tangible programble machine that does a task once given a command. A robot is also a device that severs a purpose or role. What I am excited about the future of robotics is the way it can be useful in healthcare and humanitarian work. However, I am nervous of robotics taking over the world and causing people to be lazy. I do not want robots to replace people.
+</body>
+</html>
+
