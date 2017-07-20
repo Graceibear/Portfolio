@@ -1,0 +1,36 @@
+var wordsList = [];
+
+function init() {
+  // Load the words from the dictionary text file to wordsList
+  var wordsFile = "https://raw.githubusercontent.com/GirlsFirst/SIP-2017/master/Unit2_Applications/dictionary-attack/dictionary.txt?token=ADcVhZjRMd86ZdhPE2jVvIaJdQdzLA6Yks5YvvVSwA%3D%3D";
+  $.get(wordsFile, function(data) {
+    document.getElementById("btnSubmit").disabled = true;
+    wordsList = data.split('\n');
+    document.getElementById("btnSubmit").disabled = false;
+  });
+}
+
+window.onload = init;
+
+/* ADD YOUR CODE BELOW */
+var found = false;
+function checkPassword() {
+  //take user input from box
+  for(var i = 0; i<wordsList.length; i++) {
+    var pw = document.getElementById("pw").value;
+    //need an if statement
+    if (pw === wordsList[i]) {
+      found == true;
+      break;
+    if(found){  
+      alert("bad password");
+    }
+
+    else{
+      found == false;
+      alert("good password");
+    }
+  }
+}
+    //google the syntax for how to break a loop on javascript
+checkPassword()
