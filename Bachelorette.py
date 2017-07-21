@@ -8,8 +8,8 @@ if bob == "call":
     bobreply = input("Type 1 to diss him or type 2 to continue the conversation")
     if bobreply == "2":
         print("Bob invited me to coffee, but I hated coffee. I convinced him to pay for my dinner.")
-        print("Over chicken tenders, I looked at him in his eyes, and said 'You're proof that god has a sense of humor.' Then walked out the door.")
-        print("On my way from GirlsWhoCode, I saw a smart looking man. He was nice and tall, he looked 6'1. He was a wearing his business suit which looked like it was expensive. As I was walking he smiled at me and my heart melt. His dimples were so cute I couldn't resist. He later tap me on the shoulder and he handed me a paper that had his number on it. I was shocked because I didn't think that he noticed me. I smiled and took the paper. Later that I night, I couldn't sleep. I kept thinking about that guy. I didn't even know who I am anymore. I was freaking out about a guy that I didn't even know. The next week I decided to call him. Chickaluwe and I had a great conversation on the phone, he was kind of deep. At the end of the cal he asked me out. This is my first time going on a date so I didn't know if I should say yes or no.")
+        print("Over chicken tenders, I looked at him in his eyes, and said 'You're proof that God has a sense of humor.' Then walked out the door.")
+        print("On my way from GirlsWhoCode, I saw a smart looking man. He was nice and tall, he looked 6'1. He was a wearing his business suit which looked like it was expensive. As I was walking he smiled at me and my heart melt. His dimples were so cute I couldn't resist. He later tap me on the shoulder and he handed me a paper that had his number on it. I was shocked because I didn't think that he noticed me. I smiled and took the paper. Later that I night, I couldn't sleep. I kept thinking about that guy. I don't even know who I am anymore. I was freaking out about a guy that I didn't even know. The next week I decided to call him. Chickaluwe and I had a great conversation on the phone, he was kind of deep. At the end of the call he asked me out. This is my first time going on a date so I didn't know if I should say yes or no.")
         Chickaluwe = input("Type yay")
 
         if Chickaluwe == "yay":
@@ -31,3 +31,4 @@ if bob == "call":
                 print("Chickaluwe was with Grace for life.")
             else:
                 print("Nah.")
+
