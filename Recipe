@@ -1,0 +1,16 @@
+recipe = {}
+recipe1 = []
+Salad-ingredients = {'sliced green leaf lettuce':2, 'scliced romaine lettuce':2,}
+SaladDressing-ingredients = {'(real) mayonnise' : 1 cup, 'buttermilk (add more if needed)':1/2 cup, 'sour cream': 1/2 cup, 'grated parmesan' : 1/4 cup, 'balsamic vinegar': 2 tbs, 'Worcestershire sauce' : 2 tbs, 'anchovy fillets' : 2, 'clove garlic, smashed Salt and freshly ground black pepper' : 1 }
+Croutons-ingredients = {'loaf ciabatta, crusts on, roughly chopped into 3/4-inch cube' :1, 'olive oil' : 1/2 cup, 'salt and freshly ground black pepper(add as needed)', 'grated Parmesan' : 1/2 cup}
+
+SaladDressing-instructions = ['For the salad dressing: Put the mayonnaise, buttermilk, sour cream, Parmesan, balsamic, Worcestershire, anchovies, garlic and some salt and pepper into a blender or food processor and pulse the processor or blend on low speed for several seconds. Adjust the consistency if needed with a little extra buttermilk. Refrigerate the dressing for a few hours (it just gets better!) before using it on the salad.']
+Croutons-instructions = ['For the croutons: Preheat the oven to 400 degrees F.Throw the bread cubes onto a baking sheet and toss them in the olive oil and some salt and pepper. Sprinkle on half of the Parmesan, toss, sprinkle on more and toss again. Bake, tossing again halfway through, until crisp and golden brown, 12 to 15 minutes. Set aside to cool.']
+Salad-instructions = ['For the salad: Throw the green leaf and romaine lettuce into a bowl. Add some dressing, and give it a good initial toss, just so you can evaluate how much more dressing you need. Add more dressing to taste. Add the cooled croutons. Toss gently and serve.']
+
+
+recipe1.append(ingrediens)
+recipe1.append(instructions)
+
+recipes['Ceasar Salad'] = recipe1
+print(recipes)
