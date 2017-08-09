@@ -1,6 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <div class="w3-container">
+
+    </div>
+    <title> Grace's Portfolio</title>
+    <style type ="text/css">
+    /* this our styling */
+    body {background-image:url("http://static.wixstatic.com/media/9f7669_55fe6958322c43bbbce4a5d54f97e071~mv2_d_2527_2015_s_2.jpg_srz_2527_2015_85_22_0.50_1.20_0.00_jpg_srz")}
+
+    img{
+      position: absolute;
+      top:35x auto;
+      left:170x
+    }
+        </style>
+        </head>
+        <body>
+        <div>
+
+
+
+
+
 <div style="overflow:auto; height:556px;width:564px;">
 div {
    height: 100px;
    overflow: auto;
-} 
+}
  </div>
+
